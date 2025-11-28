@@ -15,7 +15,7 @@
     --bg-color: #1f242d;
     --bg-color-dois: #323946;
     --text-color: #fff;
-    --mais-color: #5900bd;
+    --mais-color: #782e8f;
 }
 
 html {
@@ -28,10 +28,6 @@ body {
     color: var(--text-color);
 }
 
-section {
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
-}
 
 .header {
     position: fixed;
@@ -71,9 +67,99 @@ section {
     display: none;
 }
 
-.inicio {
+.home {
+    padding: 10rem 5% 2rem; /* reduz lateral esquerda e direita */
+    padding-top: 18rem;
+}
+
+.home-content {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* centraliza tudo */
+    gap: 20rem;              /* deixa mais juntinho */
+    width: 100%;
+}
+
+
+/* Texto */
+.home-text {
+    max-width: 45rem;
+}
+
+.home-text h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.home-text h3 {
+    font-size: 2rem;
+}
+
+.home-text h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--mais-color);
+}
+
+.home-text p {
+    font-size: 1.4rem;
+    margin: 1rem 0 2rem;
+}
+
+/* Ícones sociais e botão (se quiser ajustar) */
+.social-media {
+    margin-top: 1.5rem; /* diminui o espaço */
+    margin-bottom: 1.8rem;
+    display: flex;
+    gap: 1.2rem; /* diminui espaço entre ícones */
+    align-items: center;
+}
+
+.social-media a {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--mais-color);
+    color: var(--mais-color);
+    display: flex;
+    align-items: center;
     justify-content: center;
-    height: 100%;
+    border-radius: 50%; /* deixa redondo */
+    box-shadow: 0 0 1rem var(--mais-color);
+    font-size: 2rem;
+    transition: .3s;
+}
+
+.social-media a:hover {
+    background: var(--mais-color);
+    color: var(--text-color);
+    transform: translateY(-3px);
+}
+
+/* Imagem */
+.inicio-img img {
+    width: 500px;        /* ajusta o tamanho */
+    border-radius: 50%;  /* deixa redonda */
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--mais-color);
+    color: var(--text-color);
+    font-size: 1.6rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 0 1rem var(--mais-color);
+    color: var(--bg-color-dois);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
 }
