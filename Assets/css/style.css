@@ -12,10 +12,11 @@
 }
 
 :root {
-    --bg-color: #1f242d;
-    --bg-color-dois: #323946;
-    --text-color: #fff;
-    --mais-color: #782e8f;
+    --bg-color: #ebd9f5;
+    --bg-color-dois: #efc0ff;
+    --text-color: #000000;
+    --mais-color: #8605ff;
+    --icones: #8605ff;
 }
 
 html {
@@ -100,7 +101,7 @@ body {
 }
 
 span {
-    color: var(--mais-color);
+    color: var(--icones);
 }
 
 .home-text p {
@@ -120,8 +121,8 @@ span {
 .social-media a {
     width: 40px;
     height: 40px;
-    border: 2px solid var(--mais-color);
-    color: var(--mais-color);
+    border: 2px solid var(--icones);
+    color: var(--icones);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,7 +133,7 @@ span {
 }
 
 .social-media a:hover {
-    background: var(--mais-color);
+    background: var(--icones);
     color: var(--text-color);
     transform: translateY(-3px);
 }
@@ -147,13 +148,13 @@ span {
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--mais-color);
+    background: var(--icones);
     color: var(--text-color);
     font-size: 1.6rem;
     border-radius: 4rem;
     cursor: pointer;
     transition: .3s;
-    box-shadow: 0 0 1rem var(--mais-color);
+    box-shadow: 0 0 1rem var(--icones);
     color: var(--bg-color-dois);
     letter-spacing: .1rem;
     font-weight: 600;
