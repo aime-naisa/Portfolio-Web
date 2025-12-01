@@ -5,50 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <title>Aimê Naísa | Portfólio</title>
 </head>
 
 <body>
 
+    <!-- HEADER -->
     <header class="header">
-        <a href="#" class="logo">Portfólio</a>
+        <a href="#inicio" class="logo">Portfólio</a>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class="bx bx-menu" id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#inicio" class="ativo">Inicio</a>
-            <a href="#sobre" class="ativo">Sobre Mim</a>
+            <a href="#sobre">Sobre Mim</a>
             <a href="#skills">Skills</a>
             <a href="#projetos">Projetos</a>
             <a href="#contato">Contate-me</a>
         </nav>
     </header>
 
+    <!-- HOME -->
     <section class="home" id="inicio">
         <div class="home-content">
             <div class="home-text">
                 <h3 class="ola">Olá, eu sou</h3>
                 <h1>Aimê Naísa</h1>
-                <h3 class="ola">E eu sou <span>Analista de Implantação</span></h3>
-                <p>Transformo processos
-                    em resultados com tecnologia!</p>
+                <h3 class="ola">E eu sou <span class="multiplo-texto"></span></h3>
+                <p>Transformo processos em resultados com tecnologia!</p>
 
                 <div class="social-media">
-                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#"><i class='bx bxl-github'></i></a>
-                    <a href="#"><i class='bx bx-envelope'></i></a>
+                    <a href="https://www.linkedin.com/in/aimenaisa" target="_blank" rel="noopener noreferrer">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/aime-naisa" target="_blank" rel="noopener noreferrer">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="mailto:aimenaisadesouza@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="bx bx-envelope"></i>
+                    </a>
                 </div>
 
-                <a href="#" class="btn">Download CV</a>
+                <a href="Assets/cv/Aime_Naisa_CV.pdf" download class="btn">
+                    Download CV
+                </a>
             </div>
 
             <div class="inicio-img">
-                <img src="Assets/imgs/inicio.png" alt="Aimê Naísa">
+                <img src="Assets/imgs/inicio.png" alt="Foto de Aimê Naísa">
             </div>
         </div>
     </section>
 
+    <!-- SOBRE MIM -->
     <section class="about" id="sobre">
         <div class="about-img">
             <img src="Assets/imgs/sobre.png" alt="Sobre Mim">
@@ -57,18 +67,21 @@
         <div class="about-content">
             <h2 class="heading">Sobre <span>Mim</span></h2>
             <h3 class="about-services">Analista de Implantação | Suporte Técnico | Dados e Sistemas</h3>
-            <p>Sou Aimê Naísa de Souza, Técnica em Desenvolvimento de Sistemas pelo SENAI e atualmente graduanda em
-                Sistemas da Informação na FURB. Minha trajetória acadêmica e profissional é guiada pela tecnologia, pela
-                lógica e pela busca constante por entender como sistemas, dados e processos podem transformar o dia a
-                dia das
+            <p>
+                Sou Aimê Naísa de Souza, Técnica em Desenvolvimento de Sistemas pelo SENAI e atualmente graduanda em
+                Sistemas da Informação na FURB. Minha trajetória acadêmica e profissional é guiada pela tecnologia,
+                pela lógica e pela busca constante por entender como sistemas, dados e processos podem transformar o
+                dia a dia das organizações.
                 Atuo nas áreas de Implantação de Sistemas, Suporte, Dados e Sistemas, sempre focada em analisar
                 cenários, compreender as necessidades do usuário e garantir que as soluções entregues sejam eficientes,
                 funcionais e bem estruturadas.
             </p>
 
             <a href="#" class="btn">Leia Mais</a>
+        </div>
     </section>
 
+    <!-- SKILLS -->
     <section class="skills" id="skills">
         <h2 class="heading">Minhas <span>Skills</span></h2>
 
@@ -76,147 +89,145 @@
 
             <div class="skills-box">
                 <div class="skills-icon">
-                    <i class='bx bx-data'></i>
+                    <i class="bx bx-data"></i>
                 </div>
                 <h3>Linguagens de SQL</h3>
-                <p>Experiência sólida com SQL, atuando diretamente com diferentes bancos de dados, como PostgreSQL,
+                <p>
+                    Experiência sólida com SQL, atuando diretamente com diferentes bancos de dados, como PostgreSQL,
                     Oracle, Firebird, MariaDB e MySQL.
                     No dia a dia, utilizo essas linguagens para realizar consultas, manipulação e extração de dados,
                     criação e manutenção de tabelas, desenvolvimento de rotinas, além de análises que apoiam tomadas de
-                    decisão e processos internos.</p>
+                    decisão e processos internos.
+                </p>
             </div>
 
             <div class="skills-box">
                 <div class="skills-icon">
-                    <i class='bx bx-signal-5'></i>
+                    <i class="bx bx-signal-5"></i>
                 </div>
                 <h3>Análise de Dados</h3>
-                <p>Experiência em Análise de Dados, atuando desde a coleta e organização das informações até a
+                <p>
+                    Experiência em Análise de Dados, atuando desde a coleta e organização das informações até a
                     interpretação e geração de insights que apoiam decisões estratégicas.
                     No meu dia a dia, utilizo ferramentas como Metabase e Power BI para transformar dados brutos em
-                    informações claras, visuais e acessíveis.</p>
+                    informações claras, visuais e acessíveis.
+                </p>
             </div>
 
             <div class="skills-box">
                 <div class="skills-icon">
-                    <i class='bx bx-code-alt'></i>
+                    <i class="bx bx-code-alt"></i>
                 </div>
                 <h3>Programação</h3>
-                <p>Experiência em programação, utilizando linguagens como Java, Python, HTML, CSS e JavaScript para
+                <p>
+                    Experiência em programação, utilizando linguagens como Java, Python, HTML, CSS e JavaScript para
                     desenvolver projetos acadêmicos e pessoais.
                     Ao longo das minhas práticas, trabalhei com lógica de programação, estruturação de código,
                     organização de pastas, modularização e implementação de funcionalidades que tornam as aplicações
-                    mais eficientes e funcionais.</p>
+                    mais eficientes e funcionais.
+                </p>
             </div>
 
             <div class="skills-box">
                 <div class="skills-icon">
-                    <i class='bx bx-face'></i>
+                    <i class="bx bx-face"></i>
                 </div>
                 <h3>Comportamental</h3>
-                <p>Sou uma profissional comunicativa, organizada e adaptável, com facilidade para compreender contextos
+                <p>
+                    Sou uma profissional comunicativa, organizada e adaptável, com facilidade para compreender contextos
                     e transmitir informações de forma objetiva e clara.
                     Tenho visão analítica e foco em resolução de problemas, além de aprender rapidamente e lidar bem com
-                    desafios e mudanças. Trabalho de forma colaborativa, mantendo boa comunicação com equipes e usuários
-                    para alinhar expectativas e garantir entregas consistentes e eficientes.</p>
+                    desafios e mudanças.
+                    Trabalho de forma colaborativa, mantendo boa comunicação com equipes e usuários para alinhar
+                    expectativas e garantir entregas consistentes e eficientes.
+                </p>
             </div>
 
         </div>
     </section>
 
+    <!-- PROJETOS -->
     <section class="projetos" id="projetos">
         <h2 class="heading">Últimos <span>Projetos</span></h2>
 
         <div class="projetos-container">
-            <div class="projetos-box">
-                <img src="Assets/imgs/projetos/teste].jpg" alt="teste 1">
 
+            <a href="https://github.com/aime-naisa/Portfolio-Web" target="_blank" class="projetos-box">
+                <img src="Assets/imgs/projetos/portfolio.png" alt="Projeto 1">
                 <div class="projeto-layer">
-                    <h4>Teste 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Totam, aspernatur odit! Odio, officia vitae autem a laboriosam nobis soluta error.</p>
-
-                    <a href="#"><i class='bx bx-link'></i></a>
+                    <h4>Portfolio WEB</h4>
+                    <p>Meu portfólio web apresenta quem sou, minhas habilidades e projetos de forma simples, objetiva e com navegação limpa. Ele reúne informações sobre minha trajetória, competências e formas de contato em um layout moderno e organizado.</p>
+                    <i class='bx bx-link'></i>
                 </div>
-            </div>
+            </a>
 
-            <div class="projetos-box">
-                <img src="Assets/imgs/projetos/teste].jpg" alt="teste 1">
-
+            <a href="https://github.com/aime-naisa/BatalhaNaval" target="_blank" class="projetos-box">
+                <img src="Assets/imgs/projetos/Batalha Naval.png" alt="Projeto 2">
                 <div class="projeto-layer">
-                    <h4>Teste 2</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Totam, aspernatur odit! Odio, officia vitae autem a laboriosam nobis soluta error.</p>
-
-                    <a href="#"><i class='bx bx-link'></i></a>
+                    <h4>Batalha Naval</h4>
+                    <p>Desenvolvi um jogo de Batalha Naval em Java, aplicando matrizes, lógica de programação e métodos. O projeto inclui posicionamento automático de navios, controle de acertos e sistema de vitória, reforçando minha prática com Java.</p>
+                    <i class='bx bx-link'></i>
                 </div>
-            </div>
+            </a>
 
-            <div class="projetos-box">
-                <img src="Assets/imgs/projetos/teste].jpg" alt="teste 1">
-
+            <a href="https://github.com/aime-naisa" target="_blank" class="projetos-box">
+                <img src="Assets/imgs/projetos/EM BREVE.png" alt="Projeto em breve">
                 <div class="projeto-layer">
-                    <h4>Teste 3</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Totam, aspernatur odit! Odio, officia vitae autem a laboriosam nobis soluta error.</p>
-
-                    <a href="#"><i class='bx bx-link'></i></a>
+                    <h4>EM BREVE</h4>
+                    <p>EM BREVE</p>
+                    <i class='bx bx-link'></i>
                 </div>
-            </div>
+            </a>
 
-            <div class="projetos-box">
-                <img src="Assets/imgs/projetos/teste].jpg" alt="teste 1">
-
+            <a href="https://github.com/aime-naisa" target="_blank" class="projetos-box">
+                <img src="Assets/imgs/projetos/EM BREVE.png" alt="Projeto em breve">
                 <div class="projeto-layer">
-                    <h4>Teste 4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Totam, aspernatur odit! Odio, officia vitae autem a laboriosam nobis soluta error.</p>
-
-                    <a href="#"><i class='bx bx-link'></i></a>
+                    <h4>EM BREVE</h4>
+                    <p>EM BREVE</p>
+                    <i class='bx bx-link'></i>
                 </div>
-            </div>
+            </a>
 
-            <div class="projetos-box">
-                <img src="Assets/imgs/projetos/teste].jpg" alt="teste 1">
-
+            <a href="https://github.com/aime-naisa" target="_blank" class="projetos-box">
+                <img src="Assets/imgs/projetos/EM BREVE.png" alt="Projeto em breve">
                 <div class="projeto-layer">
-                    <h4>Teste 5</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Totam, aspernatur odit! Odio, officia vitae autem a laboriosam nobis soluta error.</p>
-
-                    <a href="#"><i class='bx bx-link'></i></a>
+                    <h4>EM BREVE</h4>
+                    <p>EM BREVE</p>
+                    <i class='bx bx-link'></i>
                 </div>
-            </div>
+            </a>
 
-            <div class="projetos-box">
-                <img src="Assets/imgs/projetos/teste].jpg" alt="teste 1">
-
+            <a href="https://github.com/aime-naisa" target="_blank" class="projetos-box">
+                <img src="Assets/imgs/projetos/EM BREVE.png" alt="Projeto em breve">
                 <div class="projeto-layer">
-                    <h4>Teste 6</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Totam, aspernatur odit! Odio, officia vitae autem a laboriosam nobis soluta error.</p>
-
-                    <a href="#"><i class='bx bx-link'></i></a>
+                    <h4>EM BREVE</h4>
+                    <p>EM BREVE</p>
+                    <i class='bx bx-link'></i>
                 </div>
-            </div>
+            </a>
+
         </div>
     </section>
 
+    <!-- CONTATOS -->
     <section class="contatos" id="contato">
         <h2 class="heading">Contate <span>Me</span></h2>
 
         <div class="contatos-content">
 
-            <form class="contatos-form" action="#">
+            <form class="contatos-form" onsubmit="enviarWhats(event)">
                 <div class="input-box">
-                    <input type="text" placeholder="Nome Completo">
-                    <input type="email" placeholder="Endereço de E-mail">
+                    <input id="nome" type="text" placeholder="Nome Completo" required>
+                    <input id="email" type="email" placeholder="Endereço de E-mail" required>
                 </div>
+
                 <div class="input-box">
-                    <input type="number" placeholder="Número de Contato">
-                    <input type="text" placeholder="Assunto">
+                    <input id="numero" type="number" placeholder="Número de Contato">
+                    <input id="assunto" type="text" placeholder="Assunto">
                 </div>
-                <textarea cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+
+                <textarea id="mensagem" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+
                 <input type="submit" value="Enviar Mensagem" class="btn">
             </form>
 
@@ -225,38 +236,43 @@
                 <p>Entre em contato para conversar sobre oportunidades, projetos ou parcerias.</p>
 
                 <div class="contato-item">
-                    <i class='bx bx-envelope'></i>
-                    <span>aimenaisadesouza@gmail.com</span>
+                    <i class="bx bx-envelope"></i>
+                    <a href="mailto:aimenaisadesouza@gmail.com" target="_blank" rel="noopener noreferrer">
+                        aimenaisadesouza@gmail.com
+                    </a>
                 </div>
 
                 <div class="contato-item">
-                    <i class='bx bxl-linkedin'></i>
-                    <span>linkedin.com/in/aimenaisa</span>
+                    <i class="bx bxl-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/aimenaisa" target="_blank" rel="noopener noreferrer">
+                        linkedin.com/in/aimenaisa
+                    </a>
                 </div>
 
                 <div class="contato-item">
-                    <i class='bx bxl-github'></i>
-                    <span>github.com/aime-naisa</span>
+                    <i class="bx bxl-github"></i>
+                    <a href="https://github.com/aime-naisa" target="_blank" rel="noopener noreferrer">
+                        github.com/aime-naisa
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="footer-text">
-            
-            <div class="footer-iconTOP">
-                <a href="#inicio"><i class='bx bxs-chevrons-up'></i></a>
-            </div>
-
-            <p>Copyriht &copy; 2025 by Aimê Naísa | Direitos Reservados</p>
+            <p>Copyright &copy; 2025 by Aimê Naísa | Direitos Reservados</p>
 
             <div class="footer-iconTOP">
-                <a href="#inicio"><i class='bx bxs-chevrons-up'></i></a>
+                <a href="#inicio"><i class="bx bxs-chevrons-up"></i></a>
             </div>
         </div>
     </footer>
 
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="Assets/js/script.js"></script>
 </body>
 
