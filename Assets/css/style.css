@@ -271,3 +271,83 @@ span {
     line-height: 1.6;
     text-align: center;
 }
+
+.projetos {
+    padding: 8rem 9% 6rem;
+    background: var(--bg-color-dois);
+}
+
+.projetos .heading {
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+}
+
+.projetos .heading span {
+    color: var(--mais-color);
+}
+
+.projetos-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2.5rem;
+    justify-items: center;
+}
+
+.projetos-box {
+    position: relative;
+    max-width: 360px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    background: #000;
+}
+
+.projetos-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.projeto-layer {
+    position: absolute;
+    inset: 0;
+    background: rgba(134, 5, 255, 0.9);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    opacity: 0;
+    transition: .3s;
+}
+
+.projeto-layer h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.projeto-layer p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projeto-layer a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.projetos-box:hover .projeto-layer {
+    opacity: 1;
+}
