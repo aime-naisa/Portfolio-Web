@@ -351,3 +351,125 @@ span {
 .projetos-box:hover .projeto-layer {
     opacity: 1;
 }
+
+.contatos {
+    padding: 8rem 9% 6rem;
+}
+
+.contatos .heading {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+}
+
+.contatos .heading span {
+    color: var(--mais-color);
+}
+
+.contatos-content {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+
+.contatos-form {
+    flex: 2;
+}
+
+.contatos-form .input-box {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contatos-form input,
+.contatos-form textarea {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 1.4rem;
+    background: #fff;
+    color: var(--text-color);
+}
+
+.contatos-form textarea {
+    resize: vertical;
+    min-height: 14rem;
+    margin-bottom: 2rem;
+}
+
+/* COLUNA DIREITA + LINHA FINA */
+.contatos-info {
+    flex: 1;
+    padding-left: 3rem;
+    border-left: 1px solid rgba(0,0,0,0.15);
+}
+
+.contatos-info h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contatos-info p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.contato-item i {
+    font-size: 2rem;
+    color: var(--mais-color);
+}
+
+.contatos-form .btn {
+    background: var(--icones);
+    color: var(--bg-color-dois);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--icones);
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.contatos-form .btn:hover {
+    box-shadow: none;
+}
+
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    background: var(--bg-color);
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centraliza tudo horizontalmente */
+    gap: 2rem;
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-iconTOP a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: var(--icones);
+    font-size: 2.5rem; 
+    transition: .3s ease;
+}
+
+.footer-iconTOP a:hover {
+    transform: translateY(-5px);
+}
