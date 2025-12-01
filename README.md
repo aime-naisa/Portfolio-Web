@@ -1,7 +1,3 @@
-## Observação: Projeto em Andamento!
-
----
-
 # 🌐 Portfólio Web – Aimê Naísa de Souza
 
 **`Analista de Implantação | Suporte Técnico | Dados e Sistemas`**
@@ -60,12 +56,6 @@ Boas práticas de código e estrutura de pastas
 - Contato
     - Contato direto por WhatsApp usando JS
     - Links Diretos para meu linkedin, GitHub e Email
-
----
-
-## 📸 Prévia do Projeto
-
-Será inserido uma imagem do projeto assim que finalizado!
 
 ---
 
